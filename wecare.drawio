@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T10:26:40.710Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="EOI7yvNcHyGMj7M5oBQ0" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-27T10:27:51.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="_3iPKMKaJOw9cbNG_WM6" version="14.9.3" type="github">
   <diagram id="7WQd94fEeYE-bqtXiJCG" name="UML User Case Web">
-    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,8 +16,11 @@
         <mxCell id="fCiN6hCp0tZX6XVyQlsC-2" value="Visitor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="135" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="fCiN6hCp0tZX6XVyQlsC-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="fCiN6hCp0tZX6XVyQlsC-5" target="fCiN6hCp0tZX6XVyQlsC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fCiN6hCp0tZX6XVyQlsC-5" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="370" width="30" height="60" as="geometry" />
+          <mxGeometry x="130" y="380" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fCiN6hCp0tZX6XVyQlsC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="fCiN6hCp0tZX6XVyQlsC-6" target="fCiN6hCp0tZX6XVyQlsC-11">
           <mxGeometry relative="1" as="geometry" />
@@ -30,6 +33,9 @@
         </mxCell>
         <mxCell id="fCiN6hCp0tZX6XVyQlsC-7" value="consult" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fCiN6hCp0tZX6XVyQlsC-30" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="fCiN6hCp0tZX6XVyQlsC-8" target="fCiN6hCp0tZX6XVyQlsC-29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fCiN6hCp0tZX6XVyQlsC-8" value="make appointment" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="385" width="110" height="30" as="geometry" />
@@ -68,6 +74,9 @@
         </mxCell>
         <mxCell id="fCiN6hCp0tZX6XVyQlsC-13" value="show availabilities" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
           <mxGeometry x="1300" y="220" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fCiN6hCp0tZX6XVyQlsC-29" value="login" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="385" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

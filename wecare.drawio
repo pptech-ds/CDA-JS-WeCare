@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T12:30:24.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="ineQNrAcKVywtjh3zxHr" version="14.9.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-10-27T12:36:56.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="EAfoh7zUoMHQyi1mdOzP" version="14.9.3" type="github" pages="3">
   <diagram id="7WQd94fEeYE-bqtXiJCG" name="UML User Case Web">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,7 +169,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="UML User Case Desktop" id="x0IkYhyR4ybGxtiNbCna">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="LFxaupDLHam0WiKm5VAx-0" />
         <mxCell id="LFxaupDLHam0WiKm5VAx-1" parent="LFxaupDLHam0WiKm5VAx-0" />
@@ -227,7 +227,7 @@
         <mxCell id="74i3qZ_PdeFsYzLB0PBP-2" value="update customer files" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};treeFolding=1;treeMoving=1;" vertex="1" parent="LFxaupDLHam0WiKm5VAx-1">
           <mxGeometry x="270" y="230" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="74i3qZ_PdeFsYzLB0PBP-3" value="create availability" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};treeFolding=1;treeMoving=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="LFxaupDLHam0WiKm5VAx-1">
+        <mxCell id="74i3qZ_PdeFsYzLB0PBP-3" value="CRUD availability" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};treeFolding=1;treeMoving=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="LFxaupDLHam0WiKm5VAx-1">
           <mxGeometry x="270" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="74i3qZ_PdeFsYzLB0PBP-7" value="make prescriptions" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};treeFolding=1;treeMoving=1;" vertex="1" parent="LFxaupDLHam0WiKm5VAx-1">

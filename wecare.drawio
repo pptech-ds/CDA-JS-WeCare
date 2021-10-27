@@ -1,1 +1,40 @@
-<mxfile host="Electron" modified="2021-10-27T10:06:59.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/14.6.13 Chrome/89.0.4389.128 Electron/12.0.7 Safari/537.36" etag="n-OMOnCux8Bp5uD9xTq2" version="14.6.13" type="device"><diagram id="7WQd94fEeYE-bqtXiJCG" name="Page-1">dZE9D8IgEIZ/DXsLxo+5Vl2cOjiTchYS2iMU0+qvtw1gJdWE4XjuvW/CinY8W27kFQVoQjMxEnYklOYbSsn8MvH0ZB9BY5UIogVU6gUBZoE+lIA+ETpE7ZRJYY1dB7VLGLcWh1R2R51WNbyBFahqrtf0poSTcYrdwi+gGhkr59uD97Q8isMkveQChy/ESsIKi+i81Y4F6Hl5cS8+7vTH+2nMQud+BEzGknv6JBdi5Rs=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-27T10:20:24.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="sDtEo1RCnOns_ttCYqSn" version="14.9.3" type="github">
+  <diagram id="7WQd94fEeYE-bqtXiJCG" name="UML User Case Web">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fCiN6hCp0tZX6XVyQlsC-2" value="Visitor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCiN6hCp0tZX6XVyQlsC-5" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fCiN6hCp0tZX6XVyQlsC-6" value="search with filters" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="260" y="145" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fCiN6hCp0tZX6XVyQlsC-7" value="consult" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="260" y="220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fCiN6hCp0tZX6XVyQlsC-8" value="make appointment" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="260" y="385" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fCiN6hCp0tZX6XVyQlsC-9" value="register" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fCiN6hCp0tZX6XVyQlsC-10" value="show hospital informations" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="440" y="220" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fCiN6hCp0tZX6XVyQlsC-11" value="show practioners informations" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="860" y="220" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fCiN6hCp0tZX6XVyQlsC-12" value="show departments informations" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="640" y="220" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fCiN6hCp0tZX6XVyQlsC-13" value="show availabilities" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="220" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

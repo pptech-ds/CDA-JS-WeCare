@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T08:20:40.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="dRX_99recBEDRE6v2-3T" version="15.6.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-10-28T08:30:33.026Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Ag83gf72Kx9fiab_uMAs" version="15.6.1" type="github" pages="5">
   <diagram id="7WQd94fEeYE-bqtXiJCG" name="UML Use Case Web">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -243,7 +243,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z6HQSv2A5ZwB9EU7vK3N" name="UML Class Diagram">
-    <mxGraphModel dx="2071" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1715" dy="1556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="938dblPOd3BRB22Vv1fH-0" />
         <mxCell id="938dblPOd3BRB22Vv1fH-1" parent="938dblPOd3BRB22Vv1fH-0" />
@@ -458,22 +458,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BaFBlmVrOHV2BCKqaXFi-0" value="Prescription" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="938dblPOd3BRB22Vv1fH-1" vertex="1">
-          <mxGeometry x="280" y="280" width="420" height="138" as="geometry" />
+          <mxGeometry x="280" y="280" width="580" height="164" as="geometry" />
         </mxCell>
         <mxCell id="BaFBlmVrOHV2BCKqaXFi-2" value="+ dosage: string  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BaFBlmVrOHV2BCKqaXFi-0" vertex="1">
-          <mxGeometry y="26" width="420" height="26" as="geometry" />
+          <mxGeometry y="26" width="580" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BaFBlmVrOHV2BCKqaXFi-6" value="+ prescriptionDate: string  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BaFBlmVrOHV2BCKqaXFi-0" vertex="1">
-          <mxGeometry y="52" width="420" height="26" as="geometry" />
+          <mxGeometry y="52" width="580" height="26" as="geometry" />
         </mxCell>
         <mxCell id="BaFBlmVrOHV2BCKqaXFi-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="BaFBlmVrOHV2BCKqaXFi-0" vertex="1">
-          <mxGeometry y="78" width="420" height="8" as="geometry" />
+          <mxGeometry y="78" width="580" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="tnR-UK6VlJ_7dntOvX-F-5" value="+ create(appointment Appointment): prescription Prescription" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BaFBlmVrOHV2BCKqaXFi-0" vertex="1">
-          <mxGeometry y="86" width="420" height="26" as="geometry" />
+        <mxCell id="tnR-UK6VlJ_7dntOvX-F-5" value="+ createOneByPratitioner(appointment Appointment, practitioner Practitioner): prescription Prescription" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BaFBlmVrOHV2BCKqaXFi-0" vertex="1">
+          <mxGeometry y="86" width="580" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="tnR-UK6VlJ_7dntOvX-F-6" value="+ renew(prescription Prescription): prescription Prescription" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BaFBlmVrOHV2BCKqaXFi-0" vertex="1">
-          <mxGeometry y="112" width="420" height="26" as="geometry" />
+        <mxCell id="tnR-UK6VlJ_7dntOvX-F-6" value="+ renewOneByPratitioner(prescription Prescription, practitioner Practitioner): prescription Prescription" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BaFBlmVrOHV2BCKqaXFi-0" vertex="1">
+          <mxGeometry y="112" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mUZa9cFAxi5v67iN82X1-0" value="+ requestOneByUser(prescription Prescription, user User): prescription Prescription" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BaFBlmVrOHV2BCKqaXFi-0">
+          <mxGeometry y="138" width="580" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B-MWqsFdrEwLknpYE8we-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;endSize=10;" parent="938dblPOd3BRB22Vv1fH-1" source="f2c5hDFrF8LbLWbnU3uy-11" target="eB9TMUgBat3MGKfpq8R8-3" edge="1">
           <mxGeometry relative="1" as="geometry" />

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T13:07:38.930Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="XvuVnzJmtMwp8so5amVI" version="15.6.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-10-28T13:14:40.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="c_F6fgHm1WQrSamk5UOb" version="15.6.1" type="github" pages="7">
   <diagram id="7WQd94fEeYE-bqtXiJCG" name="UML Use Case Web">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -249,7 +249,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z6HQSv2A5ZwB9EU7vK3N" name="UML Class Diagram">
-    <mxGraphModel dx="2333" dy="1881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1443" dy="1413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="938dblPOd3BRB22Vv1fH-0" />
         <mxCell id="938dblPOd3BRB22Vv1fH-1" parent="938dblPOd3BRB22Vv1fH-0" />
@@ -479,7 +479,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BaFBlmVrOHV2BCKqaXFi-0" value="Prescription" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="938dblPOd3BRB22Vv1fH-1" vertex="1">
-          <mxGeometry x="280" y="280" width="580" height="164" as="geometry" />
+          <mxGeometry x="280" y="280" width="580" height="190" as="geometry" />
         </mxCell>
         <mxCell id="BaFBlmVrOHV2BCKqaXFi-2" value="+ dosage: string  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BaFBlmVrOHV2BCKqaXFi-0" vertex="1">
           <mxGeometry y="26" width="580" height="26" as="geometry" />
@@ -496,8 +496,11 @@
         <mxCell id="tnR-UK6VlJ_7dntOvX-F-6" value="+ renewOneFromPratitioner(prescription Prescription, practitioner Practitioner): prescription Prescription" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="BaFBlmVrOHV2BCKqaXFi-0" vertex="1">
           <mxGeometry y="112" width="580" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mUZa9cFAxi5v67iN82X1-0" value="+ requestOneFromUser(prescription Prescription, user User): prescription Prescription" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BaFBlmVrOHV2BCKqaXFi-0">
+        <mxCell id="_-c3FBKG89rOWBiIrmx8-2" value="+ requestOneFromUser(prescription Prescription, user User): prescription Prescription" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BaFBlmVrOHV2BCKqaXFi-0">
           <mxGeometry y="138" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mUZa9cFAxi5v67iN82X1-0" value="+ compareAllergen(medecine Medecine, user User): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="BaFBlmVrOHV2BCKqaXFi-0">
+          <mxGeometry y="164" width="580" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B-MWqsFdrEwLknpYE8we-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;endSize=10;" parent="938dblPOd3BRB22Vv1fH-1" source="f2c5hDFrF8LbLWbnU3uy-11" target="eB9TMUgBat3MGKfpq8R8-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -612,20 +615,18 @@
           <mxGeometry x="60" y="-370" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B-MWqsFdrEwLknpYE8we-48" value="AllergenUser" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="938dblPOd3BRB22Vv1fH-1" vertex="1">
-          <mxGeometry x="-70" y="-636" width="330" height="86" as="geometry" />
+          <mxGeometry x="-70" y="-636" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B-MWqsFdrEwLknpYE8we-49" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="B-MWqsFdrEwLknpYE8we-48" vertex="1">
           <mxGeometry y="26" width="330" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="B-MWqsFdrEwLknpYE8we-50" value="+ TBD" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="B-MWqsFdrEwLknpYE8we-48" vertex="1">
+        <mxCell id="ZUrlQzZmCl1_BFBJcymT-1" value="+ checkAllergen(user User, allergen Allergen): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B-MWqsFdrEwLknpYE8we-48">
           <mxGeometry y="34" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="ZUrlQzZmCl1_BFBJcymT-1" value="+ checkAllergen(user User, allergen Allergen): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B-MWqsFdrEwLknpYE8we-48">
-          <mxGeometry y="60" width="330" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="B-MWqsFdrEwLknpYE8we-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.535;exitY=1.021;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;endSize=10;exitPerimeter=0;dashed=1;" parent="938dblPOd3BRB22Vv1fH-1" source="B-MWqsFdrEwLknpYE8we-50" edge="1">
+        <mxCell id="B-MWqsFdrEwLknpYE8we-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.535;exitY=1.021;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;endSize=10;exitPerimeter=0;dashed=1;" parent="938dblPOd3BRB22Vv1fH-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="-340" as="targetPoint" />
+            <mxPoint x="106.55000000000018" y="-575.454" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B-MWqsFdrEwLknpYE8we-55" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="938dblPOd3BRB22Vv1fH-1" vertex="1">
@@ -640,13 +641,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="B-MWqsFdrEwLknpYE8we-57" value="MedecineAllergen" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="938dblPOd3BRB22Vv1fH-1" vertex="1">
-          <mxGeometry x="-490" y="20" width="270" height="60" as="geometry" />
+          <mxGeometry x="-590" y="20" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B-MWqsFdrEwLknpYE8we-58" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="B-MWqsFdrEwLknpYE8we-57" vertex="1">
-          <mxGeometry y="26" width="270" height="8" as="geometry" />
+          <mxGeometry y="26" width="370" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="B-MWqsFdrEwLknpYE8we-59" value="+ TBD" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="B-MWqsFdrEwLknpYE8we-57" vertex="1">
-          <mxGeometry y="34" width="270" height="26" as="geometry" />
+        <mxCell id="_-c3FBKG89rOWBiIrmx8-1" value="+ checkAllergen(user User, allergen Allergen): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="B-MWqsFdrEwLknpYE8we-57">
+          <mxGeometry y="34" width="370" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pDNQbjZzpypnmsQ5Nth--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;entryX=0.631;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="938dblPOd3BRB22Vv1fH-1" source="pDNQbjZzpypnmsQ5Nth--0" target="Agj4sJJl6PMcfHbqIx2t-0">
           <mxGeometry relative="1" as="geometry">

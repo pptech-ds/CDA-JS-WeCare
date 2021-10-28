@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T12:08:04.836Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="lEs_lWyn7XrF-T-ISNM8" version="15.6.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-10-28T12:08:22.364Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="tGpWeddm96GFDz6DB4b0" version="15.6.1" type="github" pages="6">
   <diagram id="7WQd94fEeYE-bqtXiJCG" name="UML Use Case Web">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1063,7 +1063,7 @@
           <mxGeometry x="100" y="290" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E4lZmdyH3Ig_F8jicY3A-0" value="getAllByPractitioner(practitioner Practitioner): Appointment[0..*]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="t9_vVqaybCHDzDCGWopM-1">
-          <mxGeometry x="495" y="386" width="355" height="24" as="geometry" />
+          <mxGeometry x="520" y="386" width="355" height="24" as="geometry" />
         </mxCell>
         <mxCell id="E4lZmdyH3Ig_F8jicY3A-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="t9_vVqaybCHDzDCGWopM-1" source="uGLTuDzdokhI4iXSwm46-2" target="E4lZmdyH3Ig_F8jicY3A-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">

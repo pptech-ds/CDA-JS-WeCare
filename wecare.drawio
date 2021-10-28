@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T08:33:38.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="-8WX139SR2ABSTKF0kZN" version="15.6.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-10-28T08:36:33.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="2hwQpF9OfZGP62l-pEOH" version="15.6.1" type="github" pages="5">
   <diagram id="7WQd94fEeYE-bqtXiJCG" name="UML Use Case Web">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,7 +169,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="UML Use Case Desktop" id="x0IkYhyR4ybGxtiNbCna">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="LFxaupDLHam0WiKm5VAx-0" />
         <mxCell id="LFxaupDLHam0WiKm5VAx-1" parent="LFxaupDLHam0WiKm5VAx-0" />
@@ -238,6 +238,12 @@
         </mxCell>
         <mxCell id="74i3qZ_PdeFsYzLB0PBP-9" value="renew prescriptions" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};treeFolding=1;treeMoving=1;" parent="LFxaupDLHam0WiKm5VAx-1" vertex="1">
           <mxGeometry x="550" y="310" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N6554NNDTNBOaIwQgkWA-0" value="La validation n&#39;est pas utilile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="LFxaupDLHam0WiKm5VAx-1">
+          <mxGeometry x="540" y="100" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N6554NNDTNBOaIwQgkWA-1" value="On pense que le CRUD est mieux que juste la validation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="LFxaupDLHam0WiKm5VAx-1">
+          <mxGeometry x="280" y="-40" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

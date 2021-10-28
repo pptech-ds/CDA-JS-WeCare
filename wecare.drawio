@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T12:09:42.845Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="DiYcAVKLL1g112R71ii7" version="15.6.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-10-28T12:10:25.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="kSOZ_JqsmppSG4RpBFTu" version="15.6.1" type="github" pages="6">
   <diagram id="7WQd94fEeYE-bqtXiJCG" name="UML Use Case Web">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1013,11 +1013,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8ikv--kMycDFFBGdIfBr" name="UML Sequence Appointment">
-    <mxGraphModel dx="716" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="t9_vVqaybCHDzDCGWopM-0" />
         <mxCell id="t9_vVqaybCHDzDCGWopM-1" parent="t9_vVqaybCHDzDCGWopM-0" />
-        <mxCell id="t9_vVqaybCHDzDCGWopM-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="t9_vVqaybCHDzDCGWopM-1">
+        <mxCell id="t9_vVqaybCHDzDCGWopM-2" value="Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="t9_vVqaybCHDzDCGWopM-1">
           <mxGeometry x="80" y="200" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t9_vVqaybCHDzDCGWopM-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="t9_vVqaybCHDzDCGWopM-1">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T08:30:33.026Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="Ag83gf72Kx9fiab_uMAs" version="15.6.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-10-28T08:33:38.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="-8WX139SR2ABSTKF0kZN" version="15.6.1" type="github" pages="5">
   <diagram id="7WQd94fEeYE-bqtXiJCG" name="UML Use Case Web">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -243,7 +243,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Z6HQSv2A5ZwB9EU7vK3N" name="UML Class Diagram">
-    <mxGraphModel dx="1715" dy="1556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1888" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="938dblPOd3BRB22Vv1fH-0" />
         <mxCell id="938dblPOd3BRB22Vv1fH-1" parent="938dblPOd3BRB22Vv1fH-0" />
@@ -431,7 +431,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e3_mJiZrnR8hvWU2uSo_-0" value="Appointment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="938dblPOd3BRB22Vv1fH-1" vertex="1">
-          <mxGeometry x="10" y="-40" width="630" height="190" as="geometry" />
+          <mxGeometry x="10" y="-40" width="630" height="214" as="geometry" />
         </mxCell>
         <mxCell id="e3_mJiZrnR8hvWU2uSo_-1" value="+ startTime: string  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="e3_mJiZrnR8hvWU2uSo_-0" vertex="1">
           <mxGeometry y="26" width="630" height="26" as="geometry" />
@@ -443,16 +443,19 @@
           <mxGeometry y="78" width="630" height="8" as="geometry" />
         </mxCell>
         <mxCell id="tnR-UK6VlJ_7dntOvX-F-2" value="+ getAllByPractitioner(practitioner Practitioner): Appointment[0..*]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="e3_mJiZrnR8hvWU2uSo_-0" vertex="1">
-          <mxGeometry y="86" width="630" height="26" as="geometry" />
+          <mxGeometry y="86" width="630" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="SYe_mrevdxKDy5oWL4GR-1" value="+ getOneByPractitioner(practitioner Practitioner, appointment Appointment): Appointment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="e3_mJiZrnR8hvWU2uSo_-0">
+          <mxGeometry y="110" width="630" height="26" as="geometry" />
         </mxCell>
         <mxCell id="e3_mJiZrnR8hvWU2uSo_-4" value="+ createOneByPractitioner(practitioner Practitioner, startTime: string, endTime: string): appointment Appointment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="e3_mJiZrnR8hvWU2uSo_-0" vertex="1">
-          <mxGeometry y="112" width="630" height="26" as="geometry" />
+          <mxGeometry y="136" width="630" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tnR-UK6VlJ_7dntOvX-F-4" value="+ modifyOneByPractitioner(practitioner Practitioner, appointment Appointment): appointment Appointment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="e3_mJiZrnR8hvWU2uSo_-0" vertex="1">
-          <mxGeometry y="138" width="630" height="26" as="geometry" />
+          <mxGeometry y="162" width="630" height="26" as="geometry" />
         </mxCell>
         <mxCell id="tnR-UK6VlJ_7dntOvX-F-0" value="+ reserveOneByUser(user User,appointment Appointment): appointment Appointment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="e3_mJiZrnR8hvWU2uSo_-0" vertex="1">
-          <mxGeometry y="164" width="630" height="26" as="geometry" />
+          <mxGeometry y="188" width="630" height="26" as="geometry" />
         </mxCell>
         <mxCell id="B-MWqsFdrEwLknpYE8we-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.752;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;endArrow=none;endFill=0;endSize=10;" parent="938dblPOd3BRB22Vv1fH-1" source="BaFBlmVrOHV2BCKqaXFi-0" target="tnR-UK6VlJ_7dntOvX-F-0" edge="1">
           <mxGeometry relative="1" as="geometry" />

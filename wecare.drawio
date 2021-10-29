@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-29T09:54:51.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="7FwlI3Rp_JBK1SN6RR7s" version="15.6.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-10-29T09:57:26.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="AqtQghK0bJr3IIqSizcs" version="15.6.2" type="github" pages="8">
   <diagram id="7WQd94fEeYE-bqtXiJCG" name="UML Use Case Web">
     <mxGraphModel dx="1483" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,17 +239,17 @@
         <mxCell id="74i3qZ_PdeFsYzLB0PBP-9" value="renew prescriptions" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};treeFolding=1;treeMoving=1;" parent="LFxaupDLHam0WiKm5VAx-1" vertex="1">
           <mxGeometry x="550" y="310" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N6554NNDTNBOaIwQgkWA-0" value="La validation n&#39;est pas utilile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="LFxaupDLHam0WiKm5VAx-1">
+        <mxCell id="N6554NNDTNBOaIwQgkWA-0" value="La validation n&#39;est pas utilile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" parent="LFxaupDLHam0WiKm5VAx-1" vertex="1">
           <mxGeometry x="540" y="100" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="N6554NNDTNBOaIwQgkWA-1" value="On pense que le CRUD est mieux que juste la validation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" vertex="1" parent="LFxaupDLHam0WiKm5VAx-1">
+        <mxCell id="N6554NNDTNBOaIwQgkWA-1" value="On pense que le CRUD est mieux que juste la validation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=3" parent="LFxaupDLHam0WiKm5VAx-1" vertex="1">
           <mxGeometry x="280" y="-40" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="Z6HQSv2A5ZwB9EU7vK3N" name="UML Class Diagram">
-    <mxGraphModel dx="2333" dy="1881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1715" dy="1556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="938dblPOd3BRB22Vv1fH-0" />
         <mxCell id="938dblPOd3BRB22Vv1fH-1" parent="938dblPOd3BRB22Vv1fH-0" />
@@ -413,7 +413,7 @@
         <mxCell id="mRYj0INFVDOsoRrIet1d-0" value="+  selectOnePractitioner(practitioner Practitioner): appointment Appointment" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="f2c5hDFrF8LbLWbnU3uy-16">
           <mxGeometry y="294" width="449" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="E_H1lsPG9mNhnvK0rUoS-4" value="+ getAllBySpeciality(speciality Speciality): pratitioner Practitioner" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="f2c5hDFrF8LbLWbnU3uy-16" vertex="1">
+        <mxCell id="E_H1lsPG9mNhnvK0rUoS-4" value="+ getAllPractitionerBySpeciality(speciality Speciality): pratitioner Practitioner" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="f2c5hDFrF8LbLWbnU3uy-16" vertex="1">
           <mxGeometry y="320" width="449" height="26" as="geometry" />
         </mxCell>
         <mxCell id="f2c5hDFrF8LbLWbnU3uy-29" value="Medecine" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="938dblPOd3BRB22Vv1fH-1" vertex="1">
@@ -1211,7 +1211,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8ikv--kMycDFFBGdIfBr" name="UML Sequence Appointment">
-    <mxGraphModel dx="1221" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="716" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="t9_vVqaybCHDzDCGWopM-0" />
         <mxCell id="t9_vVqaybCHDzDCGWopM-1" parent="t9_vVqaybCHDzDCGWopM-0" />
@@ -1257,7 +1257,7 @@
             <mxPoint x="230" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="enDqPOENUrJ21jeAgXsd-0" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;getAllBySpeciality(speciality Speciality): Practitioner[0..*]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="t9_vVqaybCHDzDCGWopM-1" vertex="1">
+        <mxCell id="enDqPOENUrJ21jeAgXsd-0" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;getAllPractitionerBySpeciality(speciality)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="t9_vVqaybCHDzDCGWopM-1" vertex="1">
           <mxGeometry x="100" y="290" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="E4lZmdyH3Ig_F8jicY3A-0" value="getAllByPractitioner(practitioner Practitioner): Appointment[0..*]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="t9_vVqaybCHDzDCGWopM-1" vertex="1">

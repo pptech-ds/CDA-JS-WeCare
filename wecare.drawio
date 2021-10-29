@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-29T12:44:52.782Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="VAPkiVXfBAbnVzGtrtS3" version="15.6.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-10-29T12:45:48.940Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="dQi98rihutQcf12WjPdk" version="15.6.2" type="github" pages="8">
   <diagram id="7WQd94fEeYE-bqtXiJCG" name="UML Use Case Web">
     <mxGraphModel dx="1483" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -353,9 +353,6 @@
         <mxCell id="E_H1lsPG9mNhnvK0rUoS-0" value="+ getOneByName(name: string): hospital Hospital" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="f2c5hDFrF8LbLWbnU3uy-0" vertex="1">
           <mxGeometry y="138" width="290" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="B-MWqsFdrEwLknpYE8we-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;endSize=10;" parent="938dblPOd3BRB22Vv1fH-1" source="f2c5hDFrF8LbLWbnU3uy-10" target="f2c5hDFrF8LbLWbnU3uy-0" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="f2c5hDFrF8LbLWbnU3uy-10" value="Department" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="938dblPOd3BRB22Vv1fH-1" vertex="1">
           <mxGeometry x="850" y="-320" width="330" height="112" as="geometry" />
         </mxCell>
@@ -514,25 +511,8 @@
         <mxCell id="B-MWqsFdrEwLknpYE8we-2" value="0..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="938dblPOd3BRB22Vv1fH-1" vertex="1">
           <mxGeometry x="1180" y="-300" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="B-MWqsFdrEwLknpYE8we-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;endSize=10;dashed=1;" parent="938dblPOd3BRB22Vv1fH-1" source="B-MWqsFdrEwLknpYE8we-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1020" y="-520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B-MWqsFdrEwLknpYE8we-4" value="HospitalDepartment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="938dblPOd3BRB22Vv1fH-1" vertex="1">
-          <mxGeometry x="1220" y="-550" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="B-MWqsFdrEwLknpYE8we-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="B-MWqsFdrEwLknpYE8we-4" vertex="1">
-          <mxGeometry y="26" width="170" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="B-MWqsFdrEwLknpYE8we-9" value="+ TBD" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="B-MWqsFdrEwLknpYE8we-4" vertex="1">
-          <mxGeometry y="34" width="170" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="B-MWqsFdrEwLknpYE8we-12" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="938dblPOd3BRB22Vv1fH-1" vertex="1">
-          <mxGeometry x="1015" y="-596" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="B-MWqsFdrEwLknpYE8we-13" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="938dblPOd3BRB22Vv1fH-1" vertex="1">
-          <mxGeometry x="1015" y="-340" width="40" height="20" as="geometry" />
+          <mxGeometry x="1160" y="-720" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="B-MWqsFdrEwLknpYE8we-15" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="938dblPOd3BRB22Vv1fH-1" vertex="1">
           <mxGeometry x="1015" y="-70" width="40" height="20" as="geometry" />
@@ -686,6 +666,12 @@
         </mxCell>
         <mxCell id="n24tTPwIWeks34-dKQVB-3" value="+ TBD" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="n24tTPwIWeks34-dKQVB-1">
           <mxGeometry y="34" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="n24tTPwIWeks34-dKQVB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;endArrow=none;endFill=0;" edge="1" parent="938dblPOd3BRB22Vv1fH-1" source="f2c5hDFrF8LbLWbnU3uy-6" target="n24tTPwIWeks34-dKQVB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n24tTPwIWeks34-dKQVB-6" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="938dblPOd3BRB22Vv1fH-1">
+          <mxGeometry x="1310" y="-460" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -22,7 +22,7 @@ class User extends Model {
     // define association here
     console.log("User log", models);
     this.hasMany(models.appointment, { foreignKey: "user_id" });
-    this.belongsToMany(models.allergen, { through: 'allergen_user' });
+    this.belongsToMany(models.allergen, { through: 'allergens_users' });
     return this;
   }
 }

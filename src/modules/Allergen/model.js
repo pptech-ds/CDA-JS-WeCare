@@ -15,8 +15,8 @@ class Allergen extends Model {
   static associate(models) {
     // define association here
     console.log("Allergen log", models);
-    this.belongsToMany(models.user, { through: 'allergen_user' });
-    this.belongsToMany(models.medecine, { through: 'medecine_allergen' });
+    this.belongsToMany(models.user, { through: 'allergens_users' });
+    this.belongsToMany(models.medecine, { through: 'medecines_allergens' });
     return this;
   }
 }

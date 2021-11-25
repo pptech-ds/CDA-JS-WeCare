@@ -1,7 +1,7 @@
 import ApiError from "../../helpers/ApiError";
 import logger from "../../config/winston";
 
-class UserController {
+class CustomerController {
   #models;
   constructor(models) {
     this.#models = models;
@@ -17,4 +17,4 @@ class UserController {
   };
 }
 
-export default UserController;
+export default CustomerController;

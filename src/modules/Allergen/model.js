@@ -5,8 +5,8 @@ class Allergen extends Model {
   static init(sequelize) {
     return super.init(
       {
-        startTime: DataTypes.DATE,
-        endTime: DataTypes.DATE,
+        name: DataTypes.STRING,
+        code: DataTypes.STRING,
       },
       { sequelize, modelName: "allergen", underscored: true }
     );
@@ -16,6 +16,7 @@ class Allergen extends Model {
     // define association here
     console.log("Allergen log", models);
     this.belongsToMany(models.user, { through: 'allergen_user' });
+    this.belongsToMany(models.medecine, { through: 'medecine_allergen' });
     return this;
   }
 }

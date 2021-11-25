@@ -1,27 +1,28 @@
 {
-  "name": "cda-js-week3-api-expressjs",
+  "name": "cda-js-wecare",
   "version": "1.0.0",
-  "description": "CDA-JS-Week3-API-ExpressJS",
-  "main": "server.js",
+  "description": "WeCare school project",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon --exec babel-node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pptech-ds/CDA-JS-Week3-API-ExpressJS.git"
+    "url": "git+https://github.com/pptech-ds/CDA-JS-WeCare.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pptech-ds/CDA-JS-Week3-API-ExpressJS/issues"
+    "url": "https://github.com/pptech-ds/CDA-JS-WeCare/issues"
   },
-  "homepage": "https://github.com/pptech-ds/CDA-JS-Week3-API-ExpressJS#readme",
+  "homepage": "https://github.com/pptech-ds/CDA-JS-WeCare#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
     "mysql2": "^2.3.3",
+    "prettier": "^2.4.1",
     "sequelize": "^6.12.0-alpha.1",
     "winston": "^3.3.3"
   },

@@ -1,8 +1,10 @@
 const errorHandler = (err, req, res, next) => {
-    const status = err.status || 500;
-    console.error(err);
+  const statusCode = err.status || 500;
+  console.error(err);
 
-    res.status(status).json(err.message);
-}
+  res.status(statusCode).json(err.message);
+
+  logger.info("test errorHandler::%s", err.message);
+};
 
 export default errorHandler;

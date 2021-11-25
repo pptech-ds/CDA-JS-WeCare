@@ -2,7 +2,7 @@ import ApiError from "../../helpers/ApiError";
 import logger from "../../config/winston";
 
 
-class AppointmentController {
+class AllergenController {
   #models;
   constructor(models) {
     this.#models = models;
@@ -20,4 +20,4 @@ class AppointmentController {
   };
 }
 
-export default AppointmentController;
+export default AllergenController;

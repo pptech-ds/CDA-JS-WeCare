@@ -15,6 +15,8 @@ class Customer extends Model {
     // define association here
     console.log("Customer log", models);
     this.belongsTo(models.user, { foreignKey: "user_id" });
+    this.belongsToMany(models.allergen, { through: 'allergens_customers' });
+    this.hasMany(models.appointment, { foreignKey: "customer_id" });
     return this;
   }
 }

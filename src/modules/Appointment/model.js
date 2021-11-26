@@ -15,7 +15,9 @@ class Appointment extends Model {
   static associate(models) {
     // define association here
     console.log("Appointment log", models);
-    this.belongsTo(models.appointment, { foreignKey: "user_id" });
+    this.belongsTo(models.customer, { foreignKey: "customer_id" });
+    this.belongsTo(models.practitioner, { foreignKey: "practitioner_id" });
+    this.hasMany(models.prescription, { foreignKey: "appointment_id" });
     return this;
   }
 }

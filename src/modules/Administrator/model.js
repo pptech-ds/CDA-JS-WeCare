@@ -2,25 +2,23 @@ import { Model, DataTypes } from "sequelize";
 import User from "../User/model";
 import db from "../../config/database";
 
-class Practitioner extends Model {
+class Administrator extends Model {
   static init(sequelize) {
     return super.init(
       {
-        rpps: DataTypes.STRING,
       },
-      { sequelize, modelName: "practitioner", underscored: true }
+      { sequelize, modelName: "administrator", underscored: true }
     );
   }
 
   static associate(models) {
     // define association here
-    console.log("Practitioner log", models);
+    console.log("Administrator log", models);
     this.belongsTo(models.user, { foreignKey: "user_id" });
-    this.hasMany(models.appointment, { foreignKey: "practitioner_id" });
     return this;
   }
 }
 
-Practitioner.init(db.sequelize);
+Administrator.init(db.sequelize);
 
-export default Practitioner;
+export default Administrator;

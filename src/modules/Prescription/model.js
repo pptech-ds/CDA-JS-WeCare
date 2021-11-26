@@ -15,6 +15,7 @@ class Prescription extends Model {
     // define association here
     console.log("Prescription log", models);
     this.belongsToMany(models.medecine, { through: 'medecines_prescriptions' });
+    this.belongsTo(models.appointment, { through: 'appointment_id' });
     return this;
   }
 }

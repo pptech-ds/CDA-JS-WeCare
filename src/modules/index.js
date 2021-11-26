@@ -1,6 +1,7 @@
 import UserRouter from "./User";
 import PractitionerRouter from "./Practitioner";
 import CustomerRouter from "./Customer";
+import AdministratorRouter from "./Administrator";
 import AppointmentRouter from "./Appointment";
 import AllergenRouter from "./Allergen";
 import MedecineRouter from "./Medecine";
@@ -10,6 +11,7 @@ const routes = {
   "/users": UserRouter,
   "/practitioners": PractitionerRouter,
   "/customers": CustomerRouter,
+  "/administrators": AdministratorRouter,
   "/appointments": AppointmentRouter,
   "/allergens": AllergenRouter,
   "/medecines": MedecineRouter,

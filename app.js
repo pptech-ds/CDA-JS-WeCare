@@ -14,8 +14,8 @@ server.errorHandler(errorHandler);
 
 (async () => {
   try {
-    await db.associateAll(db.sequelize.models);
-    await db.sequelize.sync({ alter: true });
+    // await db.associateAll(db.sequelize.models);
+    // await db.sequelize.sync({ alter: true });
   } catch (e) {
     console.error(e);
   }

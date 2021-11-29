@@ -10,7 +10,7 @@ const logger = createLogger({
     format.splat(),
     format.json()
   ),
-  defaultMeta: { service: "MyLittleLibrary" },
+  defaultMeta: { service: "Wecare" },
   transports: [
     //
     // - Write to all logs with level `info` and below to `quick-start-combined.log`.

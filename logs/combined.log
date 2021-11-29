@@ -1,2 +1,7 @@
 {"level":"info","message":"error message","service":"MyLittleLibrary","timestamp":"2021-11-26 11:07:00"}
 {"level":"error","message":"error message","service":"MyLittleLibrary","timestamp":"2021-11-26 11:07:21"}
+{"level":"error","message":"error message","service":"Wecare","timestamp":"2021-11-26 11:27:27"}
+{"level":"error","message":"error message","service":"Wecare","timestamp":"2021-11-26 11:27:52"}
+{"level":"error","message":"Cannot read property 'constructor' of undefined","service":"Wecare","timestamp":"2021-11-26 14:23:22"}
+{"level":"error","message":"Cannot read property 'call' of undefined","service":"Wecare","timestamp":"2021-11-26 14:26:15"}
+{"level":"error","message":"Cannot read property 'call' of undefined","service":"Wecare","timestamp":"2021-11-26 14:29:15"}

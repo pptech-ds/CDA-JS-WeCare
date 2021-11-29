@@ -8,7 +8,7 @@ class User extends Model {
         email: DataTypes.STRING,
         password: DataTypes.STRING,
         lastname: DataTypes.STRING,
-        fisrname: DataTypes.STRING,
+        firstname: DataTypes.STRING,
         address: DataTypes.STRING,
         phone: DataTypes.STRING,
         nir: DataTypes.STRING,

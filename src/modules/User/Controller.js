@@ -8,11 +8,13 @@ class UserController {
     this.#models = models;
   }
 
-  signUpUser = async (userData) => {
+  signUpUser = async (req, res, next) => {
     try{
-      // console.log('userData', userData);
-      const user = await User.create(userData.body);
-      return user;
+      const user = await User.create(req.body);
+      res.status(200).json({
+        status: "success",
+        data: {user},
+      });
     } catch (error) {
       throw new ApiError('user data invalid', 400);
     }

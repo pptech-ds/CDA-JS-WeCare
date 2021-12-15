@@ -20,7 +20,6 @@ class User extends Model {
 
   static associate(models) {
     // define association here
-    console.log("User log", models);
     this.hasOne(models.practitioner, { foreignKey: "user_id" });
     this.hasOne(models.customer, { foreignKey: "user_id" });
     this.hasOne(models.administrator, { foreignKey: "user_id" });

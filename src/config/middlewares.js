@@ -6,7 +6,6 @@ const middlerawes = {
   json: express.json(),
   urlencoded: express.urlencoded({ extended: false }),
   morgan: morgan("dev"),
-  // winston: winston()
 };
 
 export default middlerawes;

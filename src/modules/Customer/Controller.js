@@ -1,18 +1,26 @@
 import ApiError from "../../helpers/ApiError";
-import logger from "../../config/winston";
 import UserController from "../User/Controller";
-import Customer from "./model";
-import User from "../User/model";
 
 
-class CustomerController extends UserController{
-  _parent = UserController.prototype;
-
+class CustomerController extends UserController {
   #models;
   constructor(models) {
-    super();
+    super(models);
     this.#models = models;
   }
+
+  signUpCustomer = async (req, res, next) => {
+    try {
+      const user = await super.signUpUser(req.body)
+      await this.#models.Customer.create({user_id: user.id});
+      res.status(200).json({
+        status: "success",
+        data: { user },
+      });
+    } catch (error) {
+      throw new ApiError("user data invalid", 400);
+    }
+  };
 }
 
 export default CustomerController;

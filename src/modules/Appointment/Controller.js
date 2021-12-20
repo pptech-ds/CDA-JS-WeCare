@@ -1,5 +1,4 @@
 import ApiError from "../../helpers/ApiError";
-import logger from "../../config/winston";
 
 
 class AppointmentController {

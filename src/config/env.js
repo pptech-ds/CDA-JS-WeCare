@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const env = {
-  app_port: process.env.APP_PORT || 8085,
+  app_port: process.env.APP_PORT || 3030,
   db_port: process.env.DB_PORT,
   db_name: process.env.DB_NAME,
   db_user: process.env.DB_USER,

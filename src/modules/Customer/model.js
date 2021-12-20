@@ -6,6 +6,7 @@ class Customer extends Model {
   static init(sequelize) {
     return super.init(
       {
+        user_id: DataTypes.INTEGER
       },
       { sequelize, modelName: "customer", underscored: true }
     );

@@ -3,7 +3,7 @@ import { Router } from "express";
 export default (controller) => {
   const router = Router();
 
-  router.route("/signup").post(controller.signUpUser);
+  router.route("/signup").post(controller.signUpCustomer);
 
   return router;
 };

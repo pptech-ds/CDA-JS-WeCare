@@ -1,22 +1,18 @@
 import ApiError from "../../helpers/ApiError";
 import UserController from "../User/Controller";
-import Customer from "./model";
-import User from "../User/model";
 
 
-class CustomerController extends UserController{
-  _parent = UserController.prototype;
+class CustomerController extends UserController {
+  #models;
+  constructor(models) {
+    super(models);
+    this.#models = models;
+  }
 
-  // #models;
-  // constructor(models) {
-  //   super();
-  //   this.#models = models;
-  // }
-
-  signUpUser = async (req, res, next) => {
+  signUpCustomer = async (req, res, next) => {
     try {
-      const user = await User.create(req.body);
-      await Customer.create({user_id: user.id});
+      const user = await super.signUpUser(req.body)
+      await this.#models.Customer.create({user_id: user.id});
       res.status(200).json({
         status: "success",
         data: { user },

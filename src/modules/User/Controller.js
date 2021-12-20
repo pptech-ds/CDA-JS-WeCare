@@ -1,22 +1,13 @@
 import ApiError from "../../helpers/ApiError";
-import User from "./model";
 
 class UserController {
-  // #models;
-  // constructor(models) {
-  //   this.#models = models;
-  // }
+  #models;
+  constructor(models) {
+    this.#models = models;
+  }
 
-  signUpUser = async (req, res, next) => {
-    try {
-      const user = await User.create(req.body);
-      res.status(200).json({
-        status: "success",
-        data: { user },
-      });
-    } catch (error) {
-      throw new ApiError("user data invalid", 400);
-    }
+  async signUpUser (userData) {
+    return await this.#models.User.create(userData);
   };
 
   login = async (req, res, next) => {
